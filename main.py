@@ -100,7 +100,7 @@ async def ping(interaction):
     guild=discord.Object(id=f"{SERVER_ID}")
 )
 async def roll(interation):
-    await interation.response.send_message(random.randint(1, 6))
+    await interation.response.send_message(f"You rolled: {random.randint(1, 6)}")
 
 
 
